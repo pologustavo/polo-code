@@ -1,0 +1,10 @@
+FROM n8nio/n8n:latest
+
+RUN npm install -g n8n-nodes-chatbase-mcp
+
+RUN npm cache clean --force
+
+CMD ["n8n"]
+
+
+CLAUDIO POLO
