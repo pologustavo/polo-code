@@ -7,4 +7,4 @@ RUN npm cache clean --force
 CMD ["n8n"]
 A
 B
-C
+Cfdfafa
